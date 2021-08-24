@@ -1,0 +1,19 @@
+{
+  "name": "blog-webdriverio-typescript",
+  "version": "1.0.0",
+  "description": "WebdriverIO TypeScript Appium Reference Project",
+  "main": "index.js",
+  "scripts": {
+    "android-tests": "mocha -r ts-node/register 'android/*.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^9.0.0",
+    "mocha": "^9.0.3",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5",
+    "webdriverio": "^7.10.0"
+  }
+}
